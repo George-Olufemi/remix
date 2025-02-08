@@ -11,7 +11,7 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   return (
     <>
-      <Link to="/admin/overview">Dashboard</Link>
+      <Link className="bg-blue-300 px-5 py-3" to="/admin/overview">Dashboard</Link>
     </>
   );
 }
